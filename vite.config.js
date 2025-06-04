@@ -6,3 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 })
+
+
+// in terminal do npm install @tailwindcss/vite

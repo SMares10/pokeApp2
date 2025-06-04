@@ -12,3 +12,9 @@ function App() {
 }
 
 export default App
+
+// step 1: npm install daisyui
+//step 2: npm install tailwindcss
+//step 3: npm install @tailwindcssvite
+// create components folder
+//add file poke_cards
