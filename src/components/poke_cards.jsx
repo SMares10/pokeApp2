@@ -38,7 +38,7 @@ export default function PokeCards () {
     return (
         <div>
             {pokemonList.map((pokemon, index) => {
-                let pokeID = (index + offset) + 1 // the +1 eliminates the pokeID from starting from 0 (no pokemon)
+                let pokeID = (index + offset) + 1 // the +1 eliminates the pokeID from starting on 0 (no pokemon)
                 return (
                 <div className='card w-36 shadow-sm' key={index}>
                     <figure>
