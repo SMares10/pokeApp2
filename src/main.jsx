@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <h1>You are still in the application</h1>
     <Routes>
       <Route path='/' element={<App />} />
-      <Route path='/about' element={<About />} /> 
+      <Route path='/pokemon/:pokeID' element={<Pokemon />} />
     </Routes>
     </BrowserRouter>
   </StrictMode>,
