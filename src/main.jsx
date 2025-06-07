@@ -10,7 +10,7 @@ import Pokemon from './components/pokemon.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <h1>You are still in the application</h1>
+    
     <Routes>
       <Route path='/' element={<App />} />
       <Route path='/pokemon/:pokeID' element={<Pokemon />} />
